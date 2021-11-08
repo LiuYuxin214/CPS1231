@@ -4,7 +4,7 @@ public class RandomSingleDigit {
 
     public static void main(String[] args) {
         //1. Generate a ASCII
-        int RandomUppercase = (int) (Math.random() * 26 + (int)'0');
+        int RandomUppercase = (int) (Math.random() * 10 + (int)'0');
         char letter = (char) RandomUppercase;
 
         //2.Show this letter
