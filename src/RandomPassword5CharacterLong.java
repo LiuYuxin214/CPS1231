@@ -16,7 +16,7 @@ public class RandomPassword5CharacterLong {
         char singleDigit5 = (char) RandomSingleDigit5;
 
         //2. Show the random password
-        System.out.print(uppercase1 + "" + lowercase2 + singleDigit3 + uppercase4 + singleDigit5);
+        System.out.println(uppercase1 + "" + lowercase2 + singleDigit3 + uppercase4 + singleDigit5);
     }
 
 }
