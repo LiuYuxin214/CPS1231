@@ -4,11 +4,11 @@ public class RandomSingleDigit {
 
     public static void main(String[] args) {
         //1. Generate a ASCII
-        int RandomUppercase = (int) (Math.random() * 10 + (int)'0');
-        char letter = (char) RandomUppercase;
+        int RandomSingleDigit = (int) (Math.random() * 10 + (int)'0');
+        char singleDigit = (char) RandomSingleDigit;
 
-        //2.Show this letter
-        System.out.println("The random uppercase letter is " + letter);
+        //2.Show this singleDigit
+        System.out.println("The random single digit is " + singleDigit);
     }
 
 }
