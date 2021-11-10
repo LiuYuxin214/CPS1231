@@ -1,8 +1,10 @@
 import java.util.Scanner;
+//Purpose: encrypt the given message
+//Main idea: Use Math.random() and orgMsg.charAt()
 public class MessageEncryption {
 
     public static void main(String[] args) {
-        //1.
+        //1. Get the message from the user
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the message you want to encrypt: ");
         String orgMsg = input.next();
@@ -11,7 +13,7 @@ public class MessageEncryption {
         char char3 = orgMsg.charAt(2);
         System.out.println("The original Message is: " + char1 + char2 + char3);
 
-        //2.
+        //2.Encrypt the message
         int offsetValue1 = (int)(Math.random() * 11);
         int offsetValue2 = (int)(Math.random() * 11);
         int offsetValue3 = (int)(Math.random() * 11);
