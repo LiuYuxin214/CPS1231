@@ -12,9 +12,9 @@ public class GuessNumber {
 
         //2. Get guess value from user
         int guess = 101;
+        Scanner input = new Scanner(System.in);
         while(guess != num) {
             System.out.print("Enter your guess: ");
-            Scanner input = new Scanner(System.in);
             guess = input.nextInt();
 
             //3. Judge the result of speculation
