@@ -13,7 +13,7 @@ public class GuessNumberDoWhile {
         //2. Get guess value from user
         int guess = 101;
         Scanner input = new Scanner(System.in);
-         do{
+        do{
             System.out.print("Enter your guess: ");
             guess = input.nextInt();
 
@@ -21,6 +21,6 @@ public class GuessNumberDoWhile {
             if (guess > num) System.out.println("Your guess is too high");
             else if (guess < num) System.out.println("Your guess is too low");
             else System.out.println("The right number is: " + num);
-         }while(guess != num);
+        }while(guess != num);
     }
 }
