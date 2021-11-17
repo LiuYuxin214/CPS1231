@@ -1,8 +1,9 @@
 import java.util.Scanner;
+
 //Purpose: randomly generates an integer between 0 and 100 and prompt the user to enter a number, and
 //print corresponding message to user
-//Main idea: Math.random() while loop
-public class GuessNumber {
+//Main idea: Math.random() do-while loop
+public class GuessNumberDoWhile {
 
     public static void main(String[] args) {
         //1. Show tips
@@ -11,7 +12,7 @@ public class GuessNumber {
 
         //2. Get guess value from user
         boolean mark = false;
-        while(mark == false) {
+         do{
             int num1 = (int) (Math.random() * 101);
             System.out.print("Enter your guess: ");
             Scanner input = new Scanner(System.in);
@@ -24,6 +25,6 @@ public class GuessNumber {
                 System.out.println("The number is: " + num1);
                 mark = true;
             }
-        }
+        }while(mark == false);
     }
 }
