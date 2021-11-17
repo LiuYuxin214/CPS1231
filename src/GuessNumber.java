@@ -20,10 +20,7 @@ public class GuessNumber {
             //3. Judge the result of speculation
             if (guess > num) System.out.println("Your guess is too high");
             else if (guess < num) System.out.println("Your guess is too low");
-            else if (guess == num) {
-                System.out.println("The right number is: " + num);
-
-            }
+            else System.out.println("The right number is: " + num);
         }
     }
 }
