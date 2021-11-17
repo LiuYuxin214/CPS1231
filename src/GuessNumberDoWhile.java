@@ -11,7 +11,7 @@ public class GuessNumberDoWhile {
         int num = (int) (Math.random() * 101);
 
         //2. Get guess value from user
-        int guess=101;
+        int guess = 101;
          do{
             System.out.print("Enter your guess: ");
             Scanner input = new Scanner(System.in);
