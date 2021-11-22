@@ -30,11 +30,7 @@ public class DaysOfAMonth {
 
         //3. Judge leap year
         if(judgeLeapYear == true){
-            if(year % 100 == 0){
-                if(year % 400 == 0) System.out.println("Feb " + year + " has 29 days");
-                else System.out.println("Feb " + year + " has 28 days");
-            }
-            else if(year % 4 == 0 && !(year % 100 == 0)) System.out.println("Feb " + year + " has 29 days");
+            if((year % 100 == 0 && year % 400 == 0)||(year % 4 == 0 && !(year % 100 == 0))) System.out.println("Feb " + year + " has 29 days");
             else System.out.println("Feb " + year + " has 28 days");
         }
 
