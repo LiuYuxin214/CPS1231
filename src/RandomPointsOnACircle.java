@@ -1,5 +1,6 @@
-//Purpose: Generates three random points on a circle
-//Main idea: Generate a random angle a in radians between 0 and 2π,
+//Purpose: Write a program that generates three random points on a circle centered at (0, 0) with radius 40
+//and displays three angles in a triangle formed by these three pointsGenerates three random points on a circle
+//Main idea: Generate a random angle "a" in radians between 0 and 2π,
 //as shown in Figure 4.4b and the point determined by this angle is
 //(r * cos (a), r * sin (a))
 public class RandomPointsOnACircle {
