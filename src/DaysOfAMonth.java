@@ -33,6 +33,5 @@ public class DaysOfAMonth {
             if((year % 100 == 0 && year % 400 == 0)||(year % 4 == 0 && !(year % 100 == 0))) System.out.println("Feb " + year + " has 29 days");
             else System.out.println("Feb " + year + " has 28 days");
         }
-
     }
 }
