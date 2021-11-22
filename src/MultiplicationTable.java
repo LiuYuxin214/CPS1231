@@ -11,6 +11,8 @@ public class MultiplicationTable {
         System.out.println("");
         System.out.print("-----------------------------");
         System.out.println("");
+
+        //2.
         for(int i = 1; i <= 9; i++){
             System.out.print(i+"| ");
             for(int j = 1; j <= 9; j++){
