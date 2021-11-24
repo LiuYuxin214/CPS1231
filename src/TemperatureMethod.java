@@ -2,6 +2,7 @@ import java.util.*;
 //Purpose:
 //Main idea: 
 public class TemperatureMethod {
+
     public static double c2f(double celTemp){
         double result;
         if(celTemp < -273.15) {
