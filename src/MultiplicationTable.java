@@ -8,9 +8,9 @@ public class MultiplicationTable {
         for (int i = 1; i <= 9; i++) {
             System.out.print(" " + i + " ");
         }
-        System.out.println("");
+        System.out.println();
         System.out.print("-----------------------------");
-        System.out.println("");
+        System.out.println();
 
         //2.
         for(int i = 1; i <= 9; i++){
@@ -19,7 +19,7 @@ public class MultiplicationTable {
                 if(i*j<=9) System.out.print(" " + i * j + " ");
                 else System.out.print(i*j+" ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }

@@ -17,9 +17,9 @@ public class MessageDecryption {
         System.out.println("The original Message is: " + char1 + char2 + char3 + char4 + char5 + char6);
 
         //2.Encrypt the message
-        int offsetValue1 = (int)(char1 - (int)'0');
-        int offsetValue2 = (int)(char3 - (int)'0');
-        int offsetValue3 = (int)(char5 - (int)'0');
+        int offsetValue1 = char1 - (int)'0';
+        int offsetValue2 = char3 - (int)'0';
+        int offsetValue3 = char5 - (int)'0';
         char2-=offsetValue1;
         char4-=offsetValue2;
         char6-=offsetValue3;

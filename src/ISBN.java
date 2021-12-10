@@ -8,7 +8,7 @@ public class ISBN {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first 9 digits of an ISBN as integer: ");
         String firstString = input.next();
-        char firstChar[] = firstString.toCharArray();
+        char[] firstChar = firstString.toCharArray();
         int[] firstNumber = new int[9];
         for(int i = 0; i < 9; i++){
             firstNumber[i] = (int)firstChar[i] - (int)'0';

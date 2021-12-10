@@ -3,7 +3,7 @@ import java.util.*;
 //Purpose:
 //Main idea: 
 public class ShiftMethod {
-    public static int[] shiftMethod(int num[]){
+    public static int[] shiftMethod(int[] num){
         int length=num.length;
         int first = num[0];
         for(int i=0;i<length-1;i++){
