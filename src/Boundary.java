@@ -15,6 +15,5 @@ public class Boundary {
         double temp = Math.min(num,MAX_BOUNDARY);
         double result = Math.max(temp,MIN_BOUNDARY);
         System.out.println("The number is " + result);
-
         }
 }
