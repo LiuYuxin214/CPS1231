@@ -9,6 +9,7 @@ public class Boundary {
         System.out.print("Please enter a number: ");
         double num = input.nextDouble();
 
+
         //2. Check the number and show the number
         final double MAX_BOUNDARY = 26.0;
         final double MIN_BOUNDARY = 5.0;
